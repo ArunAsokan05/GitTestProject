@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test suite">
+	<test name="Test cases">
+		<parameter name="userName" value="Arun" />
+
+		<classes>
+			<class name="testNG.ParameterizationExample"></class> > </classes>
+
+
+	</test>
+
+
+</suite>

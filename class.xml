@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="ClassParameterSuite">
+    <test name="IsolatedClassTest">
+        <classes>
+            
+            <class name="com.info.ParameterScopeDemo">
+                <!-- Private parameters encapsulated inside this specific class blueprint -->
+                <parameter name="classConfig" value="Class_Level_Override_Active" />
+                <parameter name="suiteEnvironment" value="QA_Sandbox" />
+                <parameter name="testUser" value="class_user@omrbranch.com" />
+                <parameter name="methodSpecificToken" value="TOK_CLASS" />
+            </class>
+            
+        </classes>
+    </test>
+</suite>

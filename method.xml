@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="MethodParameterSuite">
+    <test name="StrictMethodTest">
+        <classes>
+            
+            <class name="com.info.ParameterScopeDemo">
+                <methods>
+                    <!-- Local to methods included within this tracking tag block -->
+                    <parameter name="methodSpecificToken" value="SECRETMETHODTOKEN999" />
+                    <parameter name="suiteEnvironment" value="Dev_Local" />
+                    <parameter name="testUser" value="method_user@omrbranch.com" />
+                    <parameter name="classConfig" value="Method_POM" />
+                    
+                    <include name="methodLevelRun" />
+                    <include name="suiteLevelRun" />
+                    <include name="testLevelRun" />
+                    <exclude name="classLevelRun" />
+                </methods>
+            </class>
+            
+        </classes>
+    </test>
+</suite>

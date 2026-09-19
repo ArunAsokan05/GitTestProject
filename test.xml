@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="ParameterSuite">
+	<test name="FunctionalTestBlock">
+
+		<!-- Local to this test block boundary -->
+		<parameter name="testUser" value="test_user@omrbranch.com" />
+		<parameter name="suiteEnvironment" value="Staging" />
+		<parameter name="classConfig" value="Default" />
+		<parameter name="methodSpecificToken" value="TOK_NONE" />
+
+		<classes>
+			<class name="com.info.ParameterScopeDemo" />
+		</classes>
+	</test>
+</suite>

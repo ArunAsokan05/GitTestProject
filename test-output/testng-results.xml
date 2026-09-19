@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-29T13:52:28 IST" name="Default suite" finished-at="2026-08-29T13:52:28 IST" duration-ms="125">
+    <groups>
+    </groups>
+    <test started-at="2026-08-29T13:52:28 IST" name="Default test" finished-at="2026-08-29T13:52:28 IST" duration-ms="125">
+      <class name="testNG.DependanciesManagement">
+        <test-method signature="login()[pri:-5, instance:testNG.DependanciesManagement@765d7657]" started-at="2026-08-29T13:52:28 IST" name="login" finished-at="2026-08-29T13:52:28 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="searchProduct()[pri:0, instance:testNG.DependanciesManagement@765d7657]" started-at="2026-08-29T13:52:28 IST" name="searchProduct" finished-at="2026-08-29T13:52:28 IST" depends-on-methods="testNG.DependanciesManagement.login" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method signature="addToCart()[pri:0, instance:testNG.DependanciesManagement@765d7657]" started-at="2026-08-29T13:52:28 IST" name="addToCart" finished-at="2026-08-29T13:52:28 IST" depends-on-methods="testNG.DependanciesManagement.searchProduct" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="payment()[pri:0, instance:testNG.DependanciesManagement@765d7657]" started-at="2026-08-29T13:52:28 IST" name="payment" finished-at="2026-08-29T13:52:28 IST" depends-on-methods="testNG.DependanciesManagement.addToCart" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+      </class> <!-- testNG.DependanciesManagement -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

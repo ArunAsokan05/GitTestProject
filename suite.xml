@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="GlobalParameterSuite">
+
+    <!-- Global Parameters accessible across all tests, classes, and methods -->
+    <parameter name="suiteEnvironment" value="Production_Live" />
+    <parameter name="testUser" value="global_user@omrbranch.com" />
+    <parameter name="classConfig" value="Global_POM" />
+    <parameter name="methodSpecificToken" value="TOK_GLOBAL" />
+
+    <test name="RegressionBlockA">
+        <classes>
+            <class name="com.info.ParameterScopeDemo" />
+        </classes>
+    </test>
+</suite>
