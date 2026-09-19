@@ -18,6 +18,25 @@ public class Login {
 
 	@Test
 	public void Testcase3() {
+
+		System.out.println("Enter the Login");
+	}
+
+	@Test
+	public void Testcase9() {
+		System.out.println("Enter the username");
+	}
+
+	@Test
+	@Ignore
+	public void Testcase7() {
+		System.out.println("Enter the password");
+	}
+
+	@Test
+	public void Testcase8() {
+
+
 		System.out.println("Enter the Login");
 	}
 	
